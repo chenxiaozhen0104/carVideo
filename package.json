@@ -1,0 +1,22 @@
+{
+  "main": "http://39.108.128.21",
+  "name": "nw-demo",
+  "description": "demo app of node-webkit",
+  "version": "0.1.0",
+  "node-remote":"*",
+  "keywords": [ "demo", "node-webkit" ],
+  "window": {
+    "title": "biaoti",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 1024,
+    "height": 748,
+    "position": "mouse",
+    "min_width": 800,
+    "min_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
